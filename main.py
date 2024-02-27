@@ -13,7 +13,7 @@ tasks = AINewsLetterTasks()
 
 # Initialize the OpenAI GPT-4 language model
 OpenAIGPT4 = ChatOpenAI(
-    model="gpt-4"
+    model="gpt-4-turbo-preview"
 )
 
 
